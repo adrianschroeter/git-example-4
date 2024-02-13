@@ -26,7 +26,7 @@ Summary:        Betaflight blackbox flight recorder parser
 License:        GPL-3.0-or-later
 Group:          Development/Languages/Python
 URL:            https://github.com/atomgomba/orangebox
-#!RemoteAssetUrl: git+https://github.com/atomgomba/orangebox#v0.2.0
+Source:         orangebox-%version.tar.xz
 BuildRequires:  %{python_module pip}
 BuildRequires:  %{python_module setuptools}
 BuildRequires:  %{python_module wheel}

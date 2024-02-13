@@ -1,0 +1,11 @@
+<services>
+ <service name="tar" mode="buildtime">
+   <param name="filename">orangebox</param>
+   <param name="version">_none_</param>
+ </service>
+ <service name="recompress" mode="buildtime">
+   <param name="file">*.tar</param>
+   <param name="compression">xz</param>
+ </service>
+</services>
+
